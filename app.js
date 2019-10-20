@@ -7,9 +7,6 @@ let locationTimezone = document.querySelector(".location-timezone");
 let temperatureSection = document.querySelector(".temperature");
 const temperatureSpan = document.querySelector(".temperature span");
 
-
-
-
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(position => {
        long = position.coords.longitude;
@@ -31,5 +28,4 @@ if (navigator.geolocation) {
                   });
     });
   } 
-  }
 });

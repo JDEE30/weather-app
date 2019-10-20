@@ -16,9 +16,8 @@ body {
 }
 
 .location {
-align-items: center;
+       align-items: center;
 }
-
 
 .temperature {
     height: 30vh;
@@ -26,8 +25,6 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.temperature {
     flex-direction: column;
 }
 .degree-section {
