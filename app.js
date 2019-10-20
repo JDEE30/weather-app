@@ -30,6 +30,6 @@ if (navigator.geolocation) {
             locationTimezone.textContent = data.timezone;
                   });
     });
-  }
+  } 
   }
 });
