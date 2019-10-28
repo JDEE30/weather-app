@@ -39,3 +39,6 @@ cursor: pointer;
 .degree-section h2 {
     font-size: 40px;
 }
+ul {
+    list-style-type: none;
+  }
