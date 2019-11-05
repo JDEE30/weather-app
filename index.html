@@ -1,4 +1,4 @@
-<html>
+<<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,11 +6,43 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles.css">
+             <link rel="stylesheet" href="./fullpage.min.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151103113-1"></script>
+<script> 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151103113-1');
+</script>
+ 
+        <!-- Facebook Pixel Code -->
+<script> 
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1843741348980807');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1843741348980807&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
         <title>weather</title>
     </head>
     <body>
-        
-        <div class="location">
+        <div id="fullpage">
+        <section class="section s1">
+            
+            <div class="location">
             <h1 class="location-timezone">Timezone</h1>
             <canvas class="icon" width="128" height="128"></canvas>
 
@@ -35,11 +67,131 @@
             </form>
         </div>
 
-<div class="navBar">
-     <ul>
-         <li><a href="/index.html"><br>Home</a>&nbsp&nbsp&nbsp<a href="/Blog.html">weatherBlog</a>&nbsp&nbsp&nbsp<a href="/about.html">About</a></li>
-          </ul>
+
+        </section>
+
+    <section class="section s2">
+  
+            <div class="weatherBlogTitle"><h1> Weather Blog</h1></div>
+            <br>
+
+            <div class="BlogRssFeed1">
+            <!-- start sw-rss-feed code number one--> 
+            <script type="text/javascript"> 
+                <!-- 
+                rssfeed_url = new Array(); 
+                rssfeed_url[0]="https://www.abc15.com/weather.rss"; rssfeed_url[1]="https://wreg.com/weather/feed/"; rssfeed_url[2]="https://6abc.com/feed/";  
+                rssfeed_frame_width="230"; 
+                rssfeed_frame_height="260"; 
+                rssfeed_scroll="on"; 
+                rssfeed_scroll_step="6"; 
+                rssfeed_scroll_bar="off"; 
+                rssfeed_target="_blank"; 
+                rssfeed_font_size="12"; 
+                rssfeed_font_face=""; 
+                rssfeed_border="on"; 
+                rssfeed_css_url="https://feed.surfing-waves.com/css/style7.css"; 
+                rssfeed_title="on"; 
+                rssfeed_title_name=""; 
+                rssfeed_title_bgcolor="#3366ff"; 
+                rssfeed_title_color="#fff"; 
+                rssfeed_title_bgimage=""; 
+                rssfeed_footer="off"; 
+                rssfeed_footer_name="rss feed"; 
+                rssfeed_footer_bgcolor="#fff"; 
+                rssfeed_footer_color="#333"; 
+                rssfeed_footer_bgimage=""; 
+                rssfeed_item_title_length="50"; 
+                rssfeed_item_title_color="#666"; 
+                rssfeed_item_bgcolor="#fff"; 
+                rssfeed_item_bgimage=""; 
+                rssfeed_item_border_bottom="on"; 
+                rssfeed_item_source_icon="off"; 
+                rssfeed_item_date="off"; 
+                rssfeed_item_description="on"; 
+                rssfeed_item_description_length="120"; 
+                rssfeed_item_description_color="#666"; 
+                rssfeed_item_description_link_color="#333"; 
+                rssfeed_item_description_tag="off"; 
+                rssfeed_no_items="0"; 
+                rssfeed_cache = "d23aa6ed3bb5833149c4c5100b218188"; 
+                //--> 
+                </script> 
+                <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+                <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
+                <div style="color:#ccc;font-size:10px; text-align:right; width:230px;"></div> 
+                <!-- end sw-rss-feed code -->
+            </div>
+            <br><br>
+    </section>
+    <section class="section s3">
+            <div class="weatherBlogTitle"><h1> Weather Blog</h1></div>
+            <br>
+            <div class="BlogRssFeed2">
+
+                    <!-- start sw-rss-feed code number 2--> 
+                    <script type="text/javascript"> 
+                        <!-- 
+                        rssfeed_url = new Array(); 
+                        rssfeed_url[0]="https://www.weather.gov/rss"; rssfeed_url[1]="https://www.boston.com/comments/feed"; rssfeed_url[2]="https://www.baynews9.com/services/contentfeed.fl%7ctampa%7cweather%7cweather-experts-blog.landing.rss";  
+                        rssfeed_frame_width="230"; 
+                        rssfeed_frame_height="260"; 
+                        rssfeed_scroll="on"; 
+                        rssfeed_scroll_step="6"; 
+                        rssfeed_scroll_bar="off"; 
+                        rssfeed_target="_blank"; 
+                        rssfeed_font_size="12"; 
+                        rssfeed_font_face=""; 
+                        rssfeed_border="on"; 
+                        rssfeed_css_url="https://feed.surfing-waves.com/css/style7.css"; 
+                        rssfeed_title="on"; 
+                        rssfeed_title_name=""; 
+                        rssfeed_title_bgcolor="#3366ff"; 
+                        rssfeed_title_color="#fff"; 
+                        rssfeed_title_bgimage=""; 
+                        rssfeed_footer="off"; 
+                        rssfeed_footer_name="rss feed"; 
+                        rssfeed_footer_bgcolor="#fff"; 
+                        rssfeed_footer_color="#333"; 
+                        rssfeed_footer_bgimage=""; 
+                        rssfeed_item_title_length="50"; 
+                        rssfeed_item_title_color="#666"; 
+                        rssfeed_item_bgcolor="#fff"; 
+                        rssfeed_item_bgimage=""; 
+                        rssfeed_item_border_bottom="on"; 
+                        rssfeed_item_source_icon="off"; 
+                        rssfeed_item_date="off"; 
+                        rssfeed_item_description="on"; 
+                        rssfeed_item_description_length="120"; 
+                        rssfeed_item_description_color="#666"; 
+                        rssfeed_item_description_link_color="#333"; 
+                        rssfeed_item_description_tag="off"; 
+                        rssfeed_no_items="0"; 
+                        rssfeed_cache = "7a42b8d32c05413186fc48cc0c8412b8"; 
+                        //--> 
+                        </script> 
+                        <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+                        <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
+                        <div style="color:#ccc;font-size:10px; text-align:right; width:230px;"></div> 
+                        <!-- end sw-rss-feed code -->  
+        
+                    </div>
+    </section>
+    <section class="section s4">
+            <div class="AboutPageTitle"><h2>This simple web app was made for three purposes.</h2></div>
+           <div class="AboutPageDescription"> <p>1. To allow it's users to quickly find current weather in their area.</p>
+            <p>2. To allow those users to also quickly find any clothes or items they may need for said weather.</p>
+            <p>3. Secure users easily using rss feeds to promote passive seo and quickly build an online audience.</p>
+    </div>
+           <div class="AboutPageTitle"><h2><br>What technologies are being used?</h2></div>
+           <div class="AboutPageDescription">
+            <p><br>1.  I decided to use the <a href="https://darksky.net/dev">Darksky api</a> to build this weather app due to it's ease of use and wide range of support.</p>
+            <p>2.  I am using <a href="https://surfing-waves.com/feed.htm/">surfingWaves</a> free feed tool for seo.</p>
+           </div>
+        </section>
+ 
 </div>
-        <script src="app.js"></script>
+        <script src="./fullpage.min.js"></script>
+        <script src="./app.js"></script>
     </body>
 </html>
