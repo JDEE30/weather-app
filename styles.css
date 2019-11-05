@@ -1,14 +1,13 @@
 *{
 margin: 0;
+margin-left: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
     font-family: sans-serif;
@@ -17,24 +16,30 @@ body {
 
 .location {
        align-items: center;
-}
+       text-align: center;
+       max-width: auto;
+       max-height: auto;
+     }
 
 .temperature {
     height: 30vh;
     width: 50%;
+    align-items: center;
+    margin-left: 25%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: column;
+
 }
 .degree-section {
 display: flex;
-align-items: center;
+align-items: center; 
 cursor: pointer;
 }
 .degree-section span {
     margin: 10px;
     font-size: 30px;
+    margin-left: 10px;
 }
 .degree-section h2 {
     font-size: 40px;
@@ -42,3 +47,55 @@ cursor: pointer;
 ul {
     list-style-type: none;
   }
+  .amazonSearch {
+    align-items: center;
+       text-align: center;
+       max-width: auto;
+       max-height: auto;
+  }
+  .amazonSearchMessege {
+    align-items: center;
+    text-align: center;
+    max-width: auto;
+    max-height: auto;
+  }
+   .weatherBlogTitle {
+    align-items: center;
+       text-align: center;
+       max-width: auto;
+       max-height: auto;
+
+  }
+.BlogRssFeed1 {
+    align-items: center;
+    text-align: center;
+    max-width: auto;
+    max-height: auto;
+}
+
+.BlogRssFeed2 { 
+    align-items: center;
+       text-align: center;
+       max-width: auto;
+       max-height: auto;
+}
+.AboutPageTitle {
+    top:0px;
+    align-items: center;
+    text-align: center;
+    max-width: auto;
+    max-height: auto;
+    
+}
+.AboutPageDescription {
+    top: 0px;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    margin-left: 20%;
+    padding: 5vw;
+    padding: 7px;
+    margin-right: 5px;
+    line-height: 1.5;
+    bottom: 0px;   
+}
