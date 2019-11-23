@@ -9,9 +9,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    background-image: url('/corn-fields-under-white-clouds-with-blue-sky-during-daytime-158827.jpg');
     font-family: sans-serif;
-    color: white;
+    color: rgb(66, 66, 66);
+
 }
 
 .location {
@@ -60,6 +61,7 @@ ul {
     max-height: auto;
   }
    .weatherBlogTitle {
+       margin-top: 10vh;
     align-items: center;
        text-align: center;
        max-width: auto;
@@ -71,15 +73,20 @@ ul {
     text-align: center;
     max-width: auto;
     max-height: auto;
+    opacity: 0.75;
 }
 
 .BlogRssFeed2 { 
+    margin-top: 3vh;
     align-items: center;
        text-align: center;
        max-width: auto;
        max-height: auto;
+       opacity: 0.75;
+
 }
 .AboutPageTitle {
+    margin-top: 10vh;
     top:0px;
     align-items: center;
     text-align: center;
