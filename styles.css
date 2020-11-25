@@ -1,108 +1,109 @@
 *{
-margin: 0;
-margin-left: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('/corn-fields-under-white-clouds-with-blue-sky-during-daytime-158827.jpg');
-    font-family: sans-serif;
-    color: rgb(66, 66, 66);
-
-}
-
-.location {
-       align-items: center;
-       text-align: center;
-       max-width: auto;
-       max-height: auto;
-     }
-
-.temperature {
-    height: 30vh;
-    width: 50%;
-    align-items: center;
-    margin-left: 25%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-
-}
-.degree-section {
-display: flex;
-align-items: center; 
-cursor: pointer;
-}
-.degree-section span {
-    margin: 10px;
-    font-size: 30px;
-    margin-left: 10px;
-}
-.degree-section h2 {
-    font-size: 40px;
-}
-ul {
-    list-style-type: none;
-  }
-  .amazonSearch {
-    align-items: center;
-       text-align: center;
-       max-width: auto;
-       max-height: auto;
-  }
-  .amazonSearchMessege {
-    align-items: center;
-    text-align: center;
-    max-width: auto;
-    max-height: auto;
-  }
-   .weatherBlogTitle {
-       margin-top: 10vh;
-    align-items: center;
-       text-align: center;
-       max-width: auto;
-       max-height: auto;
-
-  }
-.BlogRssFeed1 {
-    align-items: center;
-    text-align: center;
-    max-width: auto;
-    max-height: auto;
-    opacity: 0.75;
-}
-
-.BlogRssFeed2 { 
-    margin-top: 3vh;
-    align-items: center;
-       text-align: center;
-       max-width: auto;
-       max-height: auto;
-       opacity: 0.75;
-
-}
-.AboutPageTitle {
-    margin-top: 10vh;
-    top:0px;
-    align-items: center;
-    text-align: center;
-    max-width: auto;
-    max-height: auto;
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
     
-}
-.AboutPageDescription {
-    top: 0px;
-    align-items: center;
-    align-content: center;
-    font-size: 1em;
-    margin-left: 20%;
-    padding: 5vw;
-    padding: 7px;
-    margin-right: 5px;
-    line-height: 1.5;
-    bottom: 0px;   
-}
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('corn-fields-under-white-clouds-with-blue-sky-during-daytime-158827.jpg');
+        font-family: sans-serif;
+        color: rgb(66, 66, 66);
+    
+    }
+    
+    .location {
+           align-items: center;
+           text-align: center;
+           max-width: auto;
+           max-height: auto;
+         }
+    
+    .temperature {
+        height: 30vh;
+        width: 50%;
+        align-items: center;
+        margin-left: 25%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    
+    }
+    .degree-section {
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+    }
+    .degree-section span {
+        margin: 10px;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .degree-section h2 {
+        font-size: 40px;
+    }
+    ul {
+        list-style-type: none;
+      }
+      .amazonSearch {
+        align-items: center;
+           text-align: center;
+           max-width: auto;
+           max-height: auto;
+      }
+      .amazonSearchMessege {
+        align-items: center;
+        text-align: center;
+        max-width: auto;
+        max-height: auto;
+      }
+       .weatherBlogTitle {
+           margin-top: 10vh;
+        align-items: center;
+           text-align: center;
+           max-width: auto;
+           max-height: auto;
+    
+      }
+    .BlogRssFeed1 {
+        align-items: center;
+        text-align: center;
+        max-width: auto;
+        max-height: auto;
+        opacity: 0.75;
+    }
+    
+    .BlogRssFeed2 { 
+        margin-top: 3vh;
+        align-items: center;
+           text-align: center;
+           max-width: auto;
+           max-height: auto;
+           opacity: 0.75;
+    
+    }
+    .AboutPageTitle {
+        margin-top: 5vh;
+        top:0px;
+        align-items: center;
+        text-align: center;
+        max-width: auto;
+        max-height: auto;
+        
+    }
+    .AboutPageDescription {
+        top: 0px;
+        align-items: center;
+        align-content: center;
+        font-size: 1em;
+        margin-left: 20%;
+        padding: 5vw;
+        padding: 7px;
+        margin-right: 5px;
+        line-height: 1.5;
+        bottom: 0px;   
+    }
+    

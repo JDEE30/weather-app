@@ -1,5 +1,6 @@
 <html>
-    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,39 +13,12 @@
 <meta name="geo.placename" content="Weather App" />
 <meta name="DC.title" content="Weather App" />
 <meta name="robots" content="index, follow" />
+
+<link rel="preload" href="./styles.css" as="style">
+<link rel="preload" href="./fullpage.min.css" as="style">
+
 <link rel="stylesheet" href="./styles.css">
 <link rel="stylesheet" href="./fullpage.min.css">
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151103113-1"></script>
-<script> 
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-151103113-1');
-</script>
- 
-        <!-- Facebook Pixel Code -->
-<script> 
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1843741348980807');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1843741348980807&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-<!--Adsense start Code-->
-<script data-ad-client="ca-pub-4801884296816610" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
-<!--Adsense End Code-->
     </head>
     <body>
         <div id="fullpage">
@@ -86,7 +60,6 @@
             <div class="BlogRssFeed1">
             <!-- start sw-rss-feed code number one--> 
             <script type="text/javascript"> 
-                <!-- 
                 rssfeed_url = new Array(); 
                 rssfeed_url[0]="https://www.abc15.com/weather.rss"; rssfeed_url[1]="https://wreg.com/weather/feed/"; rssfeed_url[2]="https://6abc.com/feed/";  
                 rssfeed_frame_width="230"; 
@@ -122,7 +95,6 @@
                 rssfeed_item_description_tag="off"; 
                 rssfeed_no_items="0"; 
                 rssfeed_cache = "d23aa6ed3bb5833149c4c5100b218188"; 
-                //--> 
                 </script> 
                 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
                 <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
@@ -138,7 +110,6 @@
 
                     <!-- start sw-rss-feed code number 2--> 
                     <script type="text/javascript"> 
-                        <!-- 
                         rssfeed_url = new Array(); 
                         rssfeed_url[0]="https://www.weather.gov/rss"; rssfeed_url[1]="https://www.boston.com/comments/feed"; rssfeed_url[2]="https://www.baynews9.com/services/contentfeed.fl%7ctampa%7cweather%7cweather-experts-blog.landing.rss";  
                         rssfeed_frame_width="230"; 
@@ -175,7 +146,6 @@
                         rssfeed_item_description_tag="off"; 
                         rssfeed_no_items="0"; 
                         rssfeed_cache = "7a42b8d32c05413186fc48cc0c8412b8"; 
-                        //--> 
                         </script> 
                         <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
                         <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
@@ -198,7 +168,10 @@
         </section>
  
 </div>
+<link rel="preload" href="./fullpage.min.js" as="script">
+<link rel="preload" href="./app.js" as="script">
         <script src="./fullpage.min.js"></script>
         <script src="./app.js"></script>
     </body>
 </html>
+
