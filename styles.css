@@ -9,12 +9,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('corn-fields-under-white-clouds-with-blue-sky-during-daytime-158827.jpg');
         font-family: sans-serif;
-        color: rgb(66, 66, 66);
+        color: rgb(109, 65, 65);
+        
     
     }
-    
+    H1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 20px;
+    }
+    li {
+        display: inline;
+    }
+
     .location {
            align-items: center;
            text-align: center;
@@ -106,4 +115,23 @@
         line-height: 1.5;
         bottom: 0px;   
     }
-    
+  
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	
+	/* Fixed header and footer.
+	* --------------------------------------- */
+	#header {
+      background-color:white;
+      padding: 20px;
+      color: rgb(52, 11, 88);
+      position: absolute;
+      top: 0;
+      width: 100%;
+      font-weight: 400;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+      font-size: 1em;
+    z-index: 1;
+    }
