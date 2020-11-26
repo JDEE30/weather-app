@@ -13,24 +13,20 @@
 <meta name="geo.placename" content="Weather App" />
 <meta name="DC.title" content="Weather App" />
 <meta name="robots" content="index, follow" />
-
 <link rel="preload" href="./styles.css" as="style">
 <link rel="preload" href="./fullpage.min.css" as="style">
-
 <link rel="stylesheet" href="./styles.css">
 <link rel="stylesheet" href="./fullpage.min.css">
     </head>
     <body>
-        <div id="header">
-            <nav><ul>
+        <div id="header" >
+            <nav><ul style="padding-top: 20px;">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-
+            <li><a href="./News.html">News</a></li>
                 </ul></nav></div>
-
         <div id="fullpage">
-        <section class="section s1" style="background-image: url(./nicole-geri-ohK_uJJm2G8-unsplash.jpg); background-image: cover; width: 100%; height: 100%;">
-            
+        <section class="section s1" style="background-image: url(./nicole-geri-ohK_uJJm2G8-unsplash.jpg" loading="lazy")
+; background-image: cover; max-width: 100%; max-height: 100%; opacity: 92%;">           
             <div class="location">
             <h1 class="location-timezone">Timezone</h1>
             <canvas class="icon" width="128" height="128"></canvas>
@@ -43,131 +39,47 @@
             </div>
             <div class="temperature-description"></div>
         </div>
-<div> 
+       <div> 
     </div>
-    <!-- 
-    <div class="amazonSearch">
-        <form method="get" action="http://www.amazon.com/gp/search">
-            <input type="hidden" name="tag" value="saweb1-20">
-            <input type="hidden" name="ie" value="UTF8">
-            <input type="hidden" name="index" value="blended">
-            <input name="keywords" size="12" type="text" value="">
-            <input type="submit" value="Search">
-            </form>
-        </div>
--->
 <div>
-    <a href="#s2"><img src="./download.png" width="5%" height="7%" style="margin-left: 48%;"></a>
-  
-
-</div>
-        </section>
-
-    <section class="section s2" id="s2" href="#s2">
-  
-            <div class="weatherBlogTitle"><h1> Weather Blog</h1></div>
-            <br>
-
-            <div class="BlogRssFeed1">
-            <!-- start sw-rss-feed code number one--> 
-            <script type="text/javascript"> 
-                rssfeed_url = new Array(); 
-                rssfeed_url[0]="https://www.abc15.com/weather.rss"; rssfeed_url[1]="https://wreg.com/weather/feed/"; rssfeed_url[2]="https://6abc.com/feed/";  
-                rssfeed_frame_width="230"; 
-                rssfeed_frame_height="260"; 
-                rssfeed_scroll="on"; 
-                rssfeed_scroll_step="6"; 
-                rssfeed_scroll_bar="off"; 
-                rssfeed_target="_blank"; 
-                rssfeed_font_size="12"; 
-                rssfeed_font_face=""; 
-                rssfeed_border="on"; 
-                rssfeed_css_url="";
-                rssfeed_title_name=""; 
-                rssfeed_title_bgcolor="#3366ff"; 
-                rssfeed_title_color="#fff"; 
-                rssfeed_title_bgimage=""; 
-                rssfeed_footer="off"; 
-                rssfeed_footer_name="rss feed"; 
-                rssfeed_footer_bgcolor="#fff"; 
-                rssfeed_footer_color="#333"; 
-                rssfeed_footer_bgimage=""; 
-                rssfeed_item_title_length="50"; 
-                rssfeed_item_title_color="#666"; 
-                rssfeed_item_bgcolor="#fff"; 
-                rssfeed_item_bgimage=""; 
-                rssfeed_item_border_bottom="on"; 
-                rssfeed_item_source_icon="off"; 
-                rssfeed_item_date="off"; 
-                rssfeed_item_description="on"; 
-                rssfeed_item_description_length="120"; 
-                rssfeed_item_description_color="#666"; 
-                rssfeed_item_description_link_color="#333"; 
-                rssfeed_item_description_tag="off"; 
-                rssfeed_no_items="0"; 
-                rssfeed_cache = "d23aa6ed3bb5833149c4c5100b218188"; 
-                </script> 
-                <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
-                <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-                <div style="color:#ccc;font-size:10px; text-align:right; width:230px;"></div> 
-                <!-- end sw-rss-feed code -->
+    <a href="#s2"><img src="./download.png" loading="lazy" width="5%" height="7%" style="margin-left: 48%;"></a>
+</div></section>
+             <section class="section s2" id="s2" href="#s2" style="background-image: url(./pexels-benjamin-suter-3617500.jpg" loading="lazy"); background-image: contain; width: 100%; height: 100%; opacity: 92%;">     
+             <h2 style="padding-bottom: 5%; top: 10%;text-align: center; font-size: 25px;">Need something?</h2 >
+            <div class="amazonSearch">
+                <form method="get" action="http://www.amazon.com/gp/search">
+                    <input type="hidden" name="tag" value="saweb1-20">
+                    <input type="hidden" name="ie" value="UTF8">
+                    <input type="hidden" name="index" value="blended">
+                    <input name="keywords" size="12" type="text" value="">
+                    <input type="submit" value="Search">
+                    </form>
+                </div>
+            
+<div id="center" style="text-align: center;">
+                <div id="option1" style="float: left;"> <img src="./undraw_Raining_re_4b55.svg" loading="lazy" width="15%" height="30%"><p style="font-size: 15px;">Perhaps an umbrella?</p></div>
+                <div id="option2" style=""> <img src="./undraw_fishing_hoxa.svg" loading="lazy" width="15%" height="30%"><p style="font-size: 15px;">or a fishing pole?</p></div>
             </div>
-            <br><br>
-    </section>
-    <section class="section s3">
-            <div class="weatherBlogTitle"></div>
-            <br>
-            <div class="BlogRssFeed2">
+            <a href="#s3"><img src="./download.png" loading="lazy" width="5%" height="7%" style="margin-left: 48%; margin-bottom: 5%;"></a>
 
-                    <!-- start sw-rss-feed code number 2--> 
-                    <script type="text/javascript"> 
-                        <!-- 
-                        rssfeed_url = new Array(); 
-                        rssfeed_url[0]="https://www.weather.gov/rss"; rssfeed_url[1]="https://www.boston.com/comments/feed"; rssfeed_url[2]="https://www.baynews9.com/services/contentfeed.fl%7ctampa%7cweather%7cweather-experts-blog.landing.rss";  
-                        rssfeed_frame_width="230"; 
-                        rssfeed_frame_height="260"; 
-                        rssfeed_scroll="on"; 
-                        rssfeed_scroll_step="6"; 
-                        rssfeed_scroll_bar="off"; 
-                        rssfeed_target="_blank"; 
-                        rssfeed_font_size="12"; 
-                        rssfeed_font_face=""; 
-                        rssfeed_border="on"; 
-                        rssfeed_css_url="";
-                        rssfeed_title="on"; 
-                        rssfeed_title_name=""; 
-                        rssfeed_title_bgcolor="""; 
-                        rssfeed_title_color="#fff"; 
-                        rssfeed_title_bgimage=""; 
-                        rssfeed_footer="off"; 
-                        rssfeed_footer_name="rss feed"; 
-                        rssfeed_footer_bgcolor="#fff"; 
-                        rssfeed_footer_color="#333"; 
-                        rssfeed_footer_bgimage=""; 
-                        rssfeed_item_title_length="50"; 
-                        rssfeed_item_title_color="#666"; 
-                        rssfeed_item_bgcolor="#fff"; 
-                        rssfeed_item_bgimage=""; 
-                        rssfeed_item_border_bottom="on"; 
-                        rssfeed_item_source_icon="off"; 
-                        rssfeed_item_date="off"; 
-                        rssfeed_item_description="on"; 
-                        rssfeed_item_description_length="120"; 
-                        rssfeed_item_description_color="#666"; 
-                        rssfeed_item_description_link_color="#333"; 
-                        rssfeed_item_description_tag="off"; 
-                        rssfeed_no_items="0"; 
-                        rssfeed_cache = "7a42b8d32c05413186fc48cc0c8412b8"; 
-                        </script> 
-                        <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
-                        <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-                        <div style="color:#ccc;font-size:10px; text-align:right; width:230px;"></div> 
-                        <!-- end sw-rss-feed code -->  
-        
-                    </div>
     </section>
 
- 
+</section>
+<section class="section s3" id="s3" href="#s3" style="background-image: url(./2650230.jpg" loading="lazy"); background-image: cover; width: 100%; height: 100%; opacity: 92%;">    
+    
+<h2 style="padding-bottom: 5%; top: 10%;text-align: center; font-size: 25px; color: #CB72CB;">Want to read about <sans style="color: #536DFE;">Current events?</sans> </h2 >
+
+
+
+<div id="center" style="text-align: center;">
+   <div id="option1" style="float: left;"> <img src="./undraw_newspaper_k72w.svg" loading="lazy" width="15%" height="30%"><p style="font-size: 15px;"><p style="color: #CB72CB;">Check out our news section</p></div>
+   <div id="option2" style=""> <img src="./undraw_skateboarding_929d.svg" loading="lazy" width="15%" height="30%"><p style="font-size: 15px;"><p style="color: #536DFE;">Check out our sports section?</p></div>
+</div>
+<a href="#s3"><img src="./download.png" loading="lazy" width="5%" height="7%" style="margin-left: 48%; margin-bottom: 5%;"></a>
+
+</section>
+
+
 </div>
 <link rel="preload" href="./fullpage.min.js" as="script">
 <link rel="preload" href="./app.js" as="script">
