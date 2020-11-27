@@ -145,18 +145,18 @@
 
     #header2 {
         position: absolute;
-        width: 100%;
-        font-weight: 400;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1em;
-        z-index: 1;
-        opacity: 90%;
-        top: 0px;
-        text-align: center; 
-        margin-left: -30;     
-        height: 60px;
-        margin-right: 0;
-        opacity: 80%;
+      width: 100%;
+      font-weight: 400;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1em;
+      z-index: 1;
+      opacity: 90%;
+      top: 0px;
+      text-align: center; 
+      margin-left: -30;     
+      height: 60px;
+      margin-right: 0;
+      opacity: 80%;
       }
   
    
